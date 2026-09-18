@@ -6,15 +6,7 @@
 
 AI agents can drive your Mac. Some of what they do is invisible — reading a window through the accessibility API, editing text in the background. Some of it is not: moving your real mouse, typing into whatever you have focused, or pulling an app to the front while you are working in another one.
 
-`preannounce` covers the second category. Before the action happens, a capsule slides out below the notch and tells you what is about to happen:
-
-```
-        ╭──────────────────────────────╮
-        │  3 秒之后将打开 Dia            │
-        ╰──────────────────────────────╯
-```
-
-You get three seconds to react. If you do nothing, the action proceeds. If you hover the capsule, the countdown **pauses** and the text turns into an `×` — click it and the action is cancelled, and the caller is told to give up.
+`preannounce` covers the second category. Before the action happens, a capsule slides out below the notch and tells you what is about to happen. You get three seconds to react. If you do nothing, the action proceeds. If you hover the capsule, the countdown **pauses** and the text turns into an `×` — click it and the action is cancelled, and the caller is told to give up.
 
 ## What it intercepts
 
