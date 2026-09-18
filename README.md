@@ -1,5 +1,7 @@
 # preannounce
 
+> 🌐 English | [中文](README_CN.md)
+
 **A tiny macOS daemon that shows a 3-second countdown under the notch before any automation takes over your cursor, keyboard, or foreground app.**
 
 ![preannounce in action: a glass capsule slides out below the notch and counts down before the automation acts](assets/demo.gif)
