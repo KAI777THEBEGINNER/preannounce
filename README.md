@@ -2,6 +2,8 @@
 
 **A tiny macOS daemon that shows a 3-second countdown under the notch before any automation takes over your cursor, keyboard, or foreground app.**
 
+![preannounce in action: a glass capsule slides out below the notch and counts down before the automation acts](assets/demo.gif)
+
 AI agents can drive your Mac. Some of what they do is invisible — reading a window through the accessibility API, editing text in the background. Some of it is not: moving your real mouse, typing into whatever you have focused, or pulling an app to the front while you are working in another one.
 
 `preannounce` covers the second category. Before the action happens, a capsule slides out below the notch and tells you what is about to happen:
